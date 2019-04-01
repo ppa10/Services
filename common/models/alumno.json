@@ -1,0 +1,28 @@
+{
+  "name": "Alumno",
+  "plural": "Alumnos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Apellido": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenPerfil": {
+      "type": "string",
+      "required": true,
+      "default": "fotoAlumno"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
