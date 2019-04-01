@@ -1,0 +1,28 @@
+{
+  "name": "Profesor",
+  "plural": "Profesores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Apellido": {
+      "type": "string",
+      "required": true
+    },
+    "ImagenPerfil": {
+      "type": "string",
+      "required": true,
+      "default": "foto"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
