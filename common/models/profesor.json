@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "grupos": {
+      "type": "hasMany",
+      "model": "Grupo",
+      "foreignKey": "profesorId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

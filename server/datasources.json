@@ -6,7 +6,7 @@
   "baseDatosEnMemoria": {
     "name": "baseDatosEnMemoria",
     "localStorage": "",
-    "file": "",
+    "file": "./data/db.json",
     "connector": "memory"
   }
 }

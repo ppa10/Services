@@ -38,5 +38,21 @@
   "Profesor": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "Alumno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Grupo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Equipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Juego": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
