@@ -1,6 +1,6 @@
 {
-  "name": "Alumno",
-  "plural": "Alumnos",
+  "name": "Album",
+  "plural": "Albumes",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,24 +11,17 @@
       "type": "string",
       "required": true
     },
-    "Apellido": {
-      "type": "string",
+    "NumeroCromos": {
+      "type": "number",
       "required": true
     },
-    "ImagenPerfil": {
+    "ImagenAlbum": {
       "type": "string",
-      "required": true,
-      "default": "fotoAlumno"
+      "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "grupos": {
-      "type": "hasAndBelongsToMany",
-      "model": "Grupo",
-      "foreignKey": "alumnoId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

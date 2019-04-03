@@ -1,6 +1,6 @@
 {
-  "name": "Grupo",
-  "plural": "Grupos",
+  "name": "Punto",
+  "plural": "Puntos",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -17,13 +17,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "profesor": {
-      "type": "belongsTo",
-      "model": "Profesor",
-      "foreignKey": "profesorId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

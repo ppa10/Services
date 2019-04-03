@@ -54,5 +54,33 @@
   "Juego": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "JuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Punto": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Nivel": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Coleccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Cromo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Album": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

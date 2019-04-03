@@ -27,6 +27,11 @@
       "type": "hasMany",
       "model": "Grupo",
       "foreignKey": "profesorId"
+    },
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

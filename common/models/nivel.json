@@ -1,6 +1,6 @@
 {
-  "name": "Grupo",
-  "plural": "Grupos",
+  "name": "Nivel",
+  "plural": "Niveles",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,19 +11,16 @@
       "type": "string",
       "required": true
     },
-    "Descripcion": {
-      "type": "string",
+    "PuntosAlcanzar": {
+      "type": "number",
       "required": true
+    },
+    "Imagen": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "profesor": {
-      "type": "belongsTo",
-      "model": "Profesor",
-      "foreignKey": "profesorId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
