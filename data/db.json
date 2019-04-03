@@ -3,7 +3,15 @@
     "Profesor": 3,
     "Alumno": 7,
     "Grupo": 4,
-    "Punto": 5
+    "Punto": 5,
+    "Coleccion": 3,
+    "Cromo": 9,
+    "Equipo": 3,
+    "Juego": 4,
+    "JuegoDePuntos": 2,
+    "JuegoDeCompeticion": 2,
+    "Liga": 2,
+    "JuegoDeColeccion": 2
   },
   "models": {
     "Profesor": {
@@ -19,7 +27,7 @@
       "6": "{\"id\":6,\"Nombre\":\"Alex\",\"Apellido\":\"Izquierdo\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1}"
     },
     "Grupo": {
-      "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Matemáticas 1ºESO\",\"profesorId\":1}",
+      "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Informática 2ºESO\",\"profesorId\":2,\"id\":2}",
       "3": "{\"Nombre\":\"Grupo 3\",\"Descripcion\":\"Castellano 3ºESO\",\"profesorId\":1,\"id\":3}"
     },
@@ -28,6 +36,41 @@
       "2": "{\"Nombre\":\"Deberes\",\"Descripcion\":\"Se dará puntos a aquellos alumnos que traigan los deberes hechos\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se dará puntos a aquellos alumnos que sean puntuales en clase\",\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Participación\",\"Descripcion\":\"Se dará puntos a aquellos alumnos que sean activos y participativos en clase\",\"profesorId\":1,\"id\":4}"
+    },
+    "Coleccion": {
+      "1": "{\"id\":1,\"Nombre\":\"Generación del 27\",\"NumeroCromos\":3,\"ImagenColeccion\":\"link\",\"profesorId\":1}",
+      "2": "{\"Nombre\":\"Físicos\",\"NumeroCromos\":5,\"ImagenColeccion\":\"link\",\"profesorId\":1,\"id\":2}"
+    },
+    "Cromo": {
+      "1": "{\"id\":1,\"Nombre\":\"Federico García-Lorca\",\"Imagen\":\"link\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Oro\",\"coleccionId\":1}",
+      "2": "{\"id\":2,\"Nombre\":\"Rafael Alberti\",\"Imagen\":\"link\",\"Probabilidad\":\"Media\",\"Nivel\":\"Plata\",\"coleccionId\":1}",
+      "3": "{\"Nombre\":\"Pedro Salinas\",\"Imagen\":\"link\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Albert Einstein\",\"Imagen\":\"link\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":4}",
+      "5": "{\"Nombre\":\"Stephen Hawking\",\"Imagen\":\"link\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":5}",
+      "6": "{\"Nombre\":\"Isaac Newton\",\"Imagen\":\"link\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":6}",
+      "7": "{\"Nombre\":\"Marie Curie\",\"Imagen\":\"link\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":7}",
+      "8": "{\"Nombre\":\"Werner Heisenberg\",\"Imagen\":\"link\",\"Probabilidad\":\"Media\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}"
+    },
+    "Equipo": {
+      "1": "{\"Nombre\":\"Equipo rojo\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Equipo verde\",\"grupoId\":1,\"id\":2}"
+    },
+    "Juego": {
+      "1": "{\"Tipo\":\"Juego de puntos\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Tipo\":\"Juego de colección\",\"grupoId\":1,\"id\":2}",
+      "3": "{\"Tipo\":\"Juego de competición\",\"grupoId\":1,\"id\":3}"
+    },
+    "JuegoDePuntos": {
+      "1": "{\"Modo\":\"Equipos\",\"juegoId\":1,\"id\":1}"
+    },
+    "JuegoDeCompeticion": {
+      "1": "{\"TipoCompeticion\":\"Liga\",\"Modo\":\"Equipos\",\"juegoId\":3,\"id\":1}"
+    },
+    "Liga": {
+      "1": "{\"id\":1,\"NumeroJornadas\":2,\"juegoCompeticionId\":1}"
+    },
+    "JuegoDeColeccion": {
+      "1": "{\"Modo\":\"Equipos\",\"juegoId\":2,\"coleccionId\":2,\"id\":1}"
     }
   }
 }

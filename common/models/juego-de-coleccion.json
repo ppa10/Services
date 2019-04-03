@@ -23,11 +23,6 @@
       "type": "hasAndBelongsToMany",
       "model": "ReglaAutomaticaColeccion",
       "foreignKey": "reglaAutomaticaColeccionId"
-    },
-    "coleccions": {
-      "type": "hasOne",
-      "model": "Coleccion",
-      "foreignKey": "juegoColeccionId"
     }
   },
   "acls": [],

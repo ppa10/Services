@@ -17,7 +17,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "ligas": {
+      "type": "hasOne",
+      "model": "Liga",
+      "foreignKey": "juegoCompeticionId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
