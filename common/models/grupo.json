@@ -22,6 +22,21 @@
       "type": "belongsTo",
       "model": "Profesor",
       "foreignKey": "profesorId"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "grupoId"
+    },
+    "juegos": {
+      "type": "hasMany",
+      "model": "Juego",
+      "foreignKey": "grupoId"
+    },
+    "albums": {
+      "type": "hasMany",
+      "model": "Album",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],

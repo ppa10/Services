@@ -27,6 +27,21 @@
       "type": "hasAndBelongsToMany",
       "model": "Grupo",
       "foreignKey": "alumnoId"
+    },
+    "equipos": {
+      "type": "hasAndBelongsToMany",
+      "model": "Equipo",
+      "foreignKey": "equipoId"
+    },
+    "coleccions": {
+      "type": "hasAndBelongsToMany",
+      "model": "Coleccion",
+      "foreignKey": "coleccionId"
+    },
+    "albums": {
+      "type": "hasMany",
+      "model": "Album",
+      "foreignKey": "albumId"
     }
   },
   "acls": [],

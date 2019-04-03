@@ -13,7 +13,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "reglaManualColeccions": {
+      "type": "hasAndBelongsToMany",
+      "model": "ReglaManualColeccion",
+      "foreignKey": "reglaManualColeccionId"
+    },
+    "reglaAutomaticaColeccions": {
+      "type": "hasAndBelongsToMany",
+      "model": "ReglaAutomaticaColeccion",
+      "foreignKey": "reglaAutomaticaColeccionId"
+    },
+    "coleccions": {
+      "type": "hasOne",
+      "model": "Coleccion",
+      "foreignKey": "juegoColeccionId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

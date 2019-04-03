@@ -13,7 +13,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "puntos": {
+      "type": "hasAndBelongsToMany",
+      "model": "Punto",
+      "foreignKey": "puntoId"
+    },
+    "nivels": {
+      "type": "hasAndBelongsToMany",
+      "model": "Nivel",
+      "foreignKey": "nivelId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
