@@ -1,0 +1,23 @@
+{
+  "name": "JuegoDeCompeticion",
+  "plural": "JuegosDeCompeticion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TipoCompeticion": {
+      "type": "string",
+      "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -82,5 +82,37 @@
   "Album": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "ReglaManualColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaAutomaticaColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaManualCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "ReglaAutomaticaCompeticion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Liga": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Jornada": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Partido": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
