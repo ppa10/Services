@@ -2,11 +2,11 @@
   "ids": {
     "Profesor": 3,
     "Alumno": 7,
-    "Grupo": 4,
+    "Grupo": 3,
     "Punto": 5,
     "Coleccion": 3,
     "Cromo": 9,
-    "Equipo": 3,
+    "Equipo": 5,
     "Juego": 4,
     "JuegoDePuntos": 2,
     "JuegoDeCompeticion": 2,
@@ -28,8 +28,7 @@
     },
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
-      "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Informática 2ºESO\",\"profesorId\":2,\"id\":2}",
-      "3": "{\"Nombre\":\"Grupo 3\",\"Descripcion\":\"Castellano 3ºESO\",\"profesorId\":1,\"id\":3}"
+      "2": "{\"id\":2,\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 3ºESO\",\"profesorId\":1}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Comportamiento\",\"Descripcion\":\"Se dará puntos a aquellos alumnos que tengan un buen comportamiento en clase\",\"profesorId\":1,\"id\":1}",
@@ -52,8 +51,10 @@
       "8": "{\"Nombre\":\"Werner Heisenberg\",\"Imagen\":\"link\",\"Probabilidad\":\"Media\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}"
     },
     "Equipo": {
-      "1": "{\"Nombre\":\"Equipo rojo\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Equipo verde\",\"grupoId\":1,\"id\":2}"
+      "1": "{\"Nombre\":\"Equipo amarillo\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Equipo rojo\",\"grupoId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Equipo azul\",\"grupoId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Equipo verde\",\"grupoId\":1,\"id\":4}"
     },
     "Juego": {
       "1": "{\"Tipo\":\"Juego de puntos\",\"grupoId\":1,\"id\":1}",
