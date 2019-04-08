@@ -10,6 +10,10 @@
     "Nombre": {
       "type": "string",
       "required": true
+    },
+    "FotoEquipo": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],

@@ -15,6 +15,10 @@
       "type": "number",
       "required": true
     },
+    "PrivilegiosDelNivel": {
+      "type": "number",
+      "required": false
+    },
     "Imagen": {
       "type": "string"
     }

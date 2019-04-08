@@ -11,10 +11,7 @@
       "type": "string",
       "required": true
     },
-    "NumeroCromos": {
-      "type": "number",
-      "required": true
-    },
+
     "ImagenColeccion": {
       "type": "string",
       "required": true
