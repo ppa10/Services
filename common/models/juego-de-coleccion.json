@@ -13,18 +13,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "reglaManualColeccions": {
-      "type": "hasAndBelongsToMany",
-      "model": "ReglaManualColeccion",
-      "foreignKey": "reglaManualColeccionId"
-    },
-    "reglaAutomaticaColeccions": {
-      "type": "hasAndBelongsToMany",
-      "model": "ReglaAutomaticaColeccion",
-      "foreignKey": "reglaAutomaticaColeccionId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

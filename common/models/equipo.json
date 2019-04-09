@@ -17,18 +17,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "juegos": {
-      "type": "hasAndBelongsToMany",
-      "model": "Juego",
-      "foreignKey": "juegoId"
-    },
-    "albums": {
-      "type": "hasMany",
-      "model": "Album",
-      "foreignKey": "equipoId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

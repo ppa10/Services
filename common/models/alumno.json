@@ -11,7 +11,11 @@
       "type": "string",
       "required": true
     },
-    "Apellido": {
+    "PrimerApellido": {
+      "type": "string",
+      "required": true
+    },
+    "SegundoApellido": {
       "type": "string",
       "required": true
     },
@@ -24,24 +28,13 @@
   "validations": [],
   "relations": {
     "grupos": {
-      "type": "hasAndBelongsToMany",
-      "model": "Grupo",
-      "foreignKey": "alumnoId"
-    },
-    "equipos": {
-      "type": "hasAndBelongsToMany",
-      "model": "Equipo",
-      "foreignKey": "equipoId"
-    },
-    "coleccions": {
-      "type": "hasAndBelongsToMany",
-      "model": "Coleccion",
-      "foreignKey": "coleccionId"
-    },
-    "albums": {
       "type": "hasMany",
-      "model": "Album",
-      "foreignKey": "albumId"
+      "model": "Grupo",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Matricula"
     }
   },
   "acls": [],

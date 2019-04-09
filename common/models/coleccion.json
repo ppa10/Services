@@ -11,25 +11,13 @@
       "type": "string",
       "required": true
     },
-
     "ImagenColeccion": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "cromos": {
-      "type": "hasMany",
-      "model": "Cromo",
-      "foreignKey": "coleccionId"
-    },
-    "juegoDeColeccions": {
-      "type": "hasMany",
-      "model": "JuegoDeColeccion",
-      "foreignKey": "coleccionId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

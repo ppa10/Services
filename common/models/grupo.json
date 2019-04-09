@@ -18,25 +18,14 @@
   },
   "validations": [],
   "relations": {
-    "profesor": {
-      "type": "belongsTo",
-      "model": "Profesor",
-      "foreignKey": "profesorId"
-    },
-    "equipos": {
+    "alumnos": {
       "type": "hasMany",
-      "model": "Equipo",
-      "foreignKey": "grupoId"
-    },
-    "juegos": {
-      "type": "hasMany",
-      "model": "Juego",
-      "foreignKey": "grupoId"
-    },
-    "albums": {
-      "type": "hasMany",
-      "model": "Album",
-      "foreignKey": "grupoId"
+      "model": "Alumno",
+      "foreignKey": "grupoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "Matricula"
     }
   },
   "acls": [],

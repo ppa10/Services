@@ -114,5 +114,9 @@
   "Partido": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "Matricula": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }
