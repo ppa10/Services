@@ -3,9 +3,9 @@
     "Profesor": 3,
     "Alumno": 9,
     "Grupo": 3,
-    "Punto": 1,
-    "Coleccion": 1,
-    "Cromo": 1,
+    "Punto": 4,
+    "Coleccion": 2,
+    "Cromo": 4,
     "Equipo": 5,
     "Juego": 1,
     "JuegoDePuntos": 1,
@@ -34,9 +34,19 @@
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 3º ESO\",\"profesorId\":1,\"id\":2}"
     },
-    "Punto": {},
-    "Coleccion": {},
-    "Cromo": {},
+    "Punto": {
+      "1": "{\"Nombre\":\"Comportamiento\",\"Descripcion\":\"Se asignará puntos de comportamiento a todos los alumnos que se comporten bien en clase\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Deberes\",\"Descripcion\":\"Se asignará puntos de deberes a los alumnos que traigan los deberes hechos\",\"profesorId\":1,\"id\":3}"
+    },
+    "Coleccion": {
+      "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"foto\",\"profesorId\":1,\"id\":1}"
+    },
+    "Cromo": {
+      "1": "{\"Nombre\":\"Albert Einstein\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Isaac Newton\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Stephen Hawking\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":3}"
+    },
     "Equipo": {
       "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Equipo rojo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":2}",

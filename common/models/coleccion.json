@@ -17,7 +17,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cromos": {
+      "type": "hasMany",
+      "model": "Cromo",
+      "foreignKey": "coleccionId"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "coleccionId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
