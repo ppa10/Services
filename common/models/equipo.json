@@ -17,7 +17,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AsignacionEquipo"
+    }
+  },
   "acls": [],
   "methods": {}
 }

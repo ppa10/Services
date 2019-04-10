@@ -118,5 +118,9 @@
   "Matricula": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AsignacionEquipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

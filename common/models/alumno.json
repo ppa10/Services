@@ -35,6 +35,15 @@
         "nestRemoting": true
       },
       "through": "Matricula"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AsignacionEquipo"
     }
   },
   "acls": [],

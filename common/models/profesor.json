@@ -32,6 +32,26 @@
       "type": "hasMany",
       "model": "Alumno",
       "foreignKey": "profesorId"
+    },
+    "puntos": {
+      "type": "hasMany",
+      "model": "Punto",
+      "foreignKey": "profesorId"
+    },
+    "reglaManualColeccions": {
+      "type": "hasMany",
+      "model": "ReglaManualColeccion",
+      "foreignKey": "profesorId"
+    },
+    "reglaManualCompeticions": {
+      "type": "hasMany",
+      "model": "ReglaManualCompeticion",
+      "foreignKey": "profesorId"
+    },
+    "coleccions": {
+      "type": "hasMany",
+      "model": "Coleccion",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],

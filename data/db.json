@@ -1,18 +1,19 @@
 {
   "ids": {
     "Profesor": 3,
-    "Alumno": 4,
+    "Alumno": 9,
     "Grupo": 3,
     "Punto": 1,
     "Coleccion": 1,
     "Cromo": 1,
-    "Equipo": 1,
+    "Equipo": 5,
     "Juego": 1,
     "JuegoDePuntos": 1,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
     "JuegoDeColeccion": 1,
-    "Matricula": 5
+    "Matricula": 11,
+    "AsignacionEquipo": 9
   },
   "models": {
     "Profesor": {
@@ -22,7 +23,12 @@
     "Alumno": {
       "1": "{\"Nombre\":\"Pol\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Sergio\",\"PrimerApellido\":\"Sánchez\",\"SegundoApellido\":\"Plaza\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Albert\",\"PrimerApellido\":\"Lillo\",\"SegundoApellido\":\"Méndez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":3}"
+      "3": "{\"Nombre\":\"Albert\",\"PrimerApellido\":\"Lillo\",\"SegundoApellido\":\"Méndez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Noa\",\"PrimerApellido\":\"García\",\"SegundoApellido\":\"Esteve\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":4}",
+      "5": "{\"Nombre\":\"Berta\",\"PrimerApellido\":\"Junqué\",\"SegundoApellido\":\"Llaudet\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":5}",
+      "6": "{\"Nombre\":\"Andrea\",\"PrimerApellido\":\"Diéguez\",\"SegundoApellido\":\"Santos\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":6}",
+      "7": "{\"Nombre\":\"David\",\"PrimerApellido\":\"Balboa\",\"SegundoApellido\":\"Mato\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":7}",
+      "8": "{\"Nombre\":\"Adrià\",\"PrimerApellido\":\"Espinosa\",\"SegundoApellido\":\"Miguel\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":8}"
     },
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
@@ -31,7 +37,12 @@
     "Punto": {},
     "Coleccion": {},
     "Cromo": {},
-    "Equipo": {},
+    "Equipo": {
+      "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Equipo rojo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Equipo azul\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":3}",
+      "4": "{\"Nombre\":\"Equipo verde\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":4}"
+    },
     "Juego": {},
     "JuegoDePuntos": {},
     "JuegoDeCompeticion": {},
@@ -41,7 +52,23 @@
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
       "2": "{\"alumnoId\":1,\"grupoId\":2,\"id\":2}",
       "3": "{\"alumnoId\":2,\"grupoId\":1,\"id\":3}",
-      "4": "{\"alumnoId\":3,\"grupoId\":2,\"id\":4}"
+      "4": "{\"alumnoId\":3,\"grupoId\":2,\"id\":4}",
+      "5": "{\"alumnoId\":3,\"grupoId\":1,\"id\":5}",
+      "6": "{\"alumnoId\":4,\"grupoId\":1,\"id\":6}",
+      "7": "{\"alumnoId\":5,\"grupoId\":1,\"id\":7}",
+      "8": "{\"alumnoId\":6,\"grupoId\":1,\"id\":8}",
+      "9": "{\"alumnoId\":7,\"grupoId\":1,\"id\":9}",
+      "10": "{\"alumnoId\":8,\"grupoId\":1,\"id\":10}"
+    },
+    "AsignacionEquipo": {
+      "1": "{\"alumnoId\":1,\"equipoId\":1,\"id\":1}",
+      "2": "{\"alumnoId\":4,\"equipoId\":1,\"id\":2}",
+      "3": "{\"alumnoId\":2,\"equipoId\":2,\"id\":3}",
+      "4": "{\"alumnoId\":6,\"equipoId\":2,\"id\":4}",
+      "5": "{\"alumnoId\":3,\"equipoId\":3,\"id\":5}",
+      "6": "{\"alumnoId\":5,\"equipoId\":3,\"id\":6}",
+      "7": "{\"alumnoId\":7,\"equipoId\":4,\"id\":7}",
+      "8": "{\"alumnoId\":8,\"equipoId\":4,\"id\":8}"
     }
   }
 }

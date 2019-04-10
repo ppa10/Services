@@ -26,6 +26,11 @@
         "nestRemoting": true
       },
       "through": "Matricula"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],
