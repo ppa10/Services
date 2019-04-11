@@ -16,11 +16,12 @@
       "required": true
     },
     "PrivilegiosDelNivel": {
-      "type": "number",
+      "type": "string",
       "required": false
     },
     "Imagen": {
-      "type": "string"
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],

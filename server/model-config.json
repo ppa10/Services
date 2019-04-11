@@ -122,5 +122,9 @@
   "AsignacionEquipo": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AsignacionPuntoJuego": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

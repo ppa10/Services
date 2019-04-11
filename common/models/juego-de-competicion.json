@@ -10,14 +10,19 @@
     "TipoCompeticion": {
       "type": "string",
       "required": true
-    },
-    "Modo": {
-      "type": "string",
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "ligas": {
+      "type": "hasOne",
+      "model": "Liga",
+      "foreignKey": "juegoDeCompeticionId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -18,10 +18,6 @@
     "Ganador": {
       "type": "string",
       "required": true
-    },
-    "Fecha": {
-      "type": "date",
-      "required": true
     }
   },
   "validations": [],

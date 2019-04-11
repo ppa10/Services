@@ -10,10 +10,30 @@
     "Tipo": {
       "type": "string",
       "required": true
+    },
+    "Modo": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "juegoDePuntos": {
+      "type": "hasMany",
+      "model": "JuegoDePuntos",
+      "foreignKey": "juegoId"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "juegoId"
+    },
+    "juegoDeCompeticions": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticion",
+      "foreignKey": "juegoId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

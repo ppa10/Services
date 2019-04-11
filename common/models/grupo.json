@@ -31,6 +31,11 @@
       "type": "hasMany",
       "model": "Equipo",
       "foreignKey": "grupoId"
+    },
+    "juegos": {
+      "type": "hasMany",
+      "model": "Juego",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],
