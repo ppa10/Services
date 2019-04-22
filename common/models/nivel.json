@@ -25,7 +25,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alumnoJuegoDePuntos": {
+      "type": "hasMany",
+      "model": "AlumnoJuegoDePuntos",
+      "foreignKey": "nivelId"
+    },
+    "equipoJuegoDePuntos": {
+      "type": "hasMany",
+      "model": "EquipoJuegoDePuntos",
+      "foreignKey": "nivelId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

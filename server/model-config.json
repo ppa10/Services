@@ -126,5 +126,17 @@
   "AsignacionPuntoJuego": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AlumnoJuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDePuntos": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "HistorialPuntosAlumno": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

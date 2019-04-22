@@ -1,40 +1,34 @@
 {
-  "name": "Punto",
-  "plural": "Puntos",
+  "name": "HistorialPuntosAlumno",
+  "plural": "HistorialesPuntosAlumno",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
-      "type": "string",
-      "required": true
-    },
-    "Descripcion": {
-      "type": "string",
+    "ValorPunto": {
+      "type": "number",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "juegoDePuntos": {
-      "type": "hasMany",
-      "model": "JuegoDePuntos",
+    "punto": {
+      "type": "belongsTo",
+      "model": "Punto",
       "foreignKey": "puntoId",
       "options": {
         "nestRemoting": true
-      },
-      "through": "AsignacionPuntoJuego"
+      }
     },
     "alumnoJuegoDePuntos": {
-      "type": "hasMany",
+      "type": "belongsTo",
       "model": "AlumnoJuegoDePuntos",
-      "foreignKey": "puntoId",
+      "foreignKey": "alumnoJuegoDePuntosId",
       "options": {
         "nestRemoting": true
-      },
-      "through": "HistorialPuntosAlumno"
+      }
     }
   },
   "acls": [],

@@ -44,6 +44,15 @@
         "nestRemoting": true
       },
       "through": "AsignacionEquipo"
+    },
+    "juegoDePuntos": {
+      "type": "hasMany",
+      "model": "JuegoDePuntos",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDePuntos"
     }
   },
   "acls": [],

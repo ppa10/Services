@@ -1,7 +1,7 @@
 {
   "name": "JuegoDeColeccion",
   "plural": "JuegosDeColeccion",
-  "base": "PersistedModel",
+  "base": "Juego",
   "idInjection": true,
   "options": {
     "validateUpsert": true

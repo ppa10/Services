@@ -7,16 +7,19 @@
     "Coleccion": 2,
     "Cromo": 4,
     "Equipo": 5,
-    "Juego": 6,
-    "JuegoDePuntos": 4,
-    "JuegoDeCompeticion": 2,
-    "Liga": 2,
+    "Juego": 1,
+    "JuegoDePuntos": 3,
+    "JuegoDeCompeticion": 1,
+    "Liga": 1,
     "JuegoDeColeccion": 1,
     "Matricula": 11,
     "AsignacionEquipo": 9,
-    "AsignacionPuntoJuego": 6,
-    "Nivel": 5,
-    "Jornada": 4
+    "AsignacionPuntoJuego": 5,
+    "Nivel": 8,
+    "Jornada": 4,
+    "AlumnoJuegoDePuntos": 9,
+    "EquipoJuegoDePuntos": 5,
+    "HistorialPuntosAlumno": 2
   },
   "models": {
     "Profesor": {
@@ -58,24 +61,13 @@
       "3": "{\"Nombre\":\"Equipo azul\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Equipo verde\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":4}"
     },
-    "Juego": {
-      "1": "{\"Tipo\":\"Juego de puntos\",\"Modo\":\"Individual\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Tipo\":\"Juego de colección\",\"Modo\":\"Equipos\",\"grupoId\":1,\"id\":2}",
-      "3": "{\"Tipo\":\"Juego de puntos\",\"Modo\":\"Individual\",\"grupoId\":2,\"id\":3}",
-      "4": "{\"id\":4,\"Tipo\":\"Juego de puntos\",\"Modo\":\"Equipos\",\"grupoId\":1}",
-      "5": "{\"Tipo\":\"Juego de competición\",\"Modo\":\"Individual\",\"grupoId\":1,\"id\":5}"
-    },
+    "Juego": {},
     "JuegoDePuntos": {
-      "1": "{\"juegoId\":1,\"id\":1}",
-      "2": "{\"juegoId\":4,\"id\":2}",
-      "3": "{\"juegoId\":3,\"id\":3}"
+      "1": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"grupoId\":1,\"id\":2}"
     },
-    "JuegoDeCompeticion": {
-      "1": "{\"TipoCompeticion\":\"Liga\",\"juegoId\":5,\"id\":1}"
-    },
-    "Liga": {
-      "1": "{\"NumeroJornadas\":14,\"juegoDeCompeticionId\":1,\"id\":1}"
-    },
+    "JuegoDeCompeticion": {},
+    "Liga": {},
     "JuegoDeColeccion": {},
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -103,19 +95,36 @@
       "1": "{\"juegoDePuntosId\":1,\"puntoId\":1,\"id\":1}",
       "2": "{\"juegoDePuntosId\":1,\"puntoId\":2,\"id\":2}",
       "3": "{\"juegoDePuntosId\":1,\"puntoId\":3,\"id\":3}",
-      "4": "{\"juegoDePuntosId\":2,\"puntoId\":4,\"id\":4}",
-      "5": "{\"juegoDePuntosId\":2,\"puntoId\":5,\"id\":5}"
+      "4": "{\"juegoDePuntosId\":1,\"puntoId\":4,\"id\":4}"
     },
     "Nivel": {
-      "1": "{\"Nombre\":\"Bronce\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Pueden salir 5 minutos antes al patio\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Plata\",\"PuntosAlcanzar\":25,\"PrivilegiosDelNivel\":\"Pueden entregar unos deberes un día más tarde\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Oro\",\"PuntosAlcanzar\":50,\"PrivilegiosDelNivel\":\"Pueden repetir una pregunta de un examen que hayan fallado\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":3}",
-      "4": "{\"Nombre\":\"Becario\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Obtendrán un caramelo\",\"Imagen\":\"string\",\"juegoDePuntosId\":2,\"id\":4}"
+      "5": "{\"Nombre\":\"Bronce\",\"PuntosAlcanzar\":10,\"PrivilegiosDelNivel\":\"Pueden salir 5 minutos antes al patio\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":5}",
+      "6": "{\"Nombre\":\"Plata\",\"PuntosAlcanzar\":25,\"PrivilegiosDelNivel\":\"Pueden entregar unos deberes un día más tarde\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":6}",
+      "7": "{\"Nombre\":\"Oro\",\"PuntosAlcanzar\":50,\"PrivilegiosDelNivel\":\"Pueden repetir una pregunta de un examen en la que hayan fallado\",\"Imagen\":\"string\",\"juegoDePuntosId\":1,\"id\":7}"
     },
     "Jornada": {
       "1": "{\"Nombre\":\"Jornada 1\",\"Fecha\":\"2019-04-11T16:44:21.493Z\",\"ligaId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Jornada 2\",\"Fecha\":\"2019-04-18T16:44:21.493Z\",\"ligaId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Jornada 3\",\"Fecha\":\"2019-04-25T16:44:21.493Z\",\"ligaId\":1,\"id\":3}"
+    },
+    "AlumnoJuegoDePuntos": {
+      "1": "{\"PuntosAlumno\":0,\"alumnoId\":1,\"juegoDePuntosId\":1,\"id\":1}",
+      "2": "{\"PuntosAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":1,\"id\":2}",
+      "3": "{\"PuntosAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":1,\"id\":3}",
+      "4": "{\"PuntosAlumno\":0,\"alumnoId\":4,\"juegoDePuntosId\":1,\"id\":4}",
+      "5": "{\"PuntosAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":1,\"id\":5}",
+      "6": "{\"PuntosAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":1,\"id\":6}",
+      "7": "{\"PuntosAlumno\":0,\"alumnoId\":7,\"juegoDePuntosId\":1,\"id\":7}",
+      "8": "{\"PuntosAlumno\":0,\"alumnoId\":8,\"juegoDePuntosId\":1,\"id\":8}"
+    },
+    "EquipoJuegoDePuntos": {
+      "1": "{\"Puntos\":0,\"equipoId\":1,\"juegoDePuntosId\":2,\"id\":1}",
+      "2": "{\"Puntos\":0,\"equipoId\":2,\"juegoDePuntosId\":2,\"id\":2}",
+      "3": "{\"Puntos\":0,\"equipoId\":3,\"juegoDePuntosId\":2,\"id\":3}",
+      "4": "{\"Puntos\":0,\"equipoId\":4,\"juegoDePuntosId\":2,\"id\":4}"
+    },
+    "HistorialPuntosAlumno": {
+      "1": "{\"ValorPunto\":2,\"puntoId\":2,\"alumnoJuegoDePuntosId\":1,\"id\":1}"
     }
   }
 }

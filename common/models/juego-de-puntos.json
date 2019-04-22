@@ -1,7 +1,7 @@
 {
   "name": "JuegoDePuntos",
   "plural": "JuegosDePuntos",
-  "base": "PersistedModel",
+  "base": "Juego",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -22,6 +22,24 @@
         "nestRemoting": true
       },
       "through": "AsignacionPuntoJuego"
+    },
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDePuntosId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDePuntos"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "juegoDePuntosId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDePuntos"
     }
   },
   "acls": [],

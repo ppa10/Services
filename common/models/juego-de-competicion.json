@@ -1,7 +1,7 @@
 {
   "name": "JuegoDeCompeticion",
   "plural": "JuegosDeCompeticion",
-  "base": "PersistedModel",
+  "base": "Juego",
   "idInjection": true,
   "options": {
     "validateUpsert": true

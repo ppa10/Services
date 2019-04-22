@@ -32,9 +32,19 @@
       "model": "Equipo",
       "foreignKey": "grupoId"
     },
-    "juegos": {
+    "juegoDePuntos": {
       "type": "hasMany",
-      "model": "Juego",
+      "model": "JuegoDePuntos",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "grupoId"
+    },
+    "juegoDeCompeticions": {
+      "type": "hasMany",
+      "model": "JuegoDeCompeticion",
       "foreignKey": "grupoId"
     }
   },
