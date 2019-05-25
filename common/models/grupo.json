@@ -46,6 +46,11 @@
       "type": "hasMany",
       "model": "JuegoDeCompeticion",
       "foreignKey": "grupoId"
+    },
+    "asignacionEquipos": {
+      "type": "hasMany",
+      "model": "AsignacionEquipo",
+      "foreignKey": "grupoId"
     }
   },
   "acls": [],

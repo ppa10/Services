@@ -8,5 +8,11 @@
     "localStorage": "",
     "file": "./data/db.json",
     "connector": "memory"
+  },
+  "imagenes": {
+    "name": "imagenes",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/ficheros"
   }
 }

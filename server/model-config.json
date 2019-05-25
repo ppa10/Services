@@ -138,5 +138,13 @@
   "HistorialPuntosAlumno": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "imagen": {
+    "dataSource": "imagenes",
+    "public": true
+  },
+  "Insignia": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

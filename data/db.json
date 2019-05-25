@@ -1,19 +1,19 @@
 {
   "ids": {
     "Profesor": 3,
-    "Alumno": 9,
-    "Grupo": 3,
-    "Punto": 6,
+    "Alumno": 20,
+    "Grupo": 12,
+    "Punto": 29,
     "Coleccion": 2,
     "Cromo": 4,
-    "Equipo": 5,
+    "Equipo": 34,
     "Juego": 1,
     "JuegoDePuntos": 3,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
     "JuegoDeColeccion": 1,
-    "Matricula": 11,
-    "AsignacionEquipo": 9,
+    "Matricula": 33,
+    "AsignacionEquipo": 38,
     "AsignacionPuntoJuego": 5,
     "Nivel": 4,
     "Jornada": 4,
@@ -34,18 +34,33 @@
       "5": "{\"Nombre\":\"Berta\",\"PrimerApellido\":\"Junqué\",\"SegundoApellido\":\"Llaudet\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":5}",
       "6": "{\"Nombre\":\"Victor\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":6}",
       "7": "{\"Nombre\":\"David\",\"PrimerApellido\":\"Balboa\",\"SegundoApellido\":\"Mato\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":7}",
-      "8": "{\"Nombre\":\"Adrià\",\"PrimerApellido\":\"Espinosa\",\"SegundoApellido\":\"Miguel\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":8}"
+      "8": "{\"Nombre\":\"Adrià\",\"PrimerApellido\":\"Espinosa\",\"SegundoApellido\":\"Miguel\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":8}",
+      "9": "{\"Nombre\":\"Alex\",\"PrimerApellido\":\"Peinado\",\"SegundoApellido\":\"Alcaide\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":9}",
+      "10": "{\"Nombre\":\"Francesc\",\"PrimerApellido\":\"Torrens\",\"SegundoApellido\":\"García\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":10}",
+      "11": "{\"Nombre\":\"Juan\",\"PrimerApellido\":\"Garcia\",\"SegundoApellido\":\"Garcia\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":11}",
+      "12": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martinez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":12}",
+      "13": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Batlle\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":13}",
+      "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":14}",
+      "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":15}",
+      "16": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Battle\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":16}",
+      "17": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martínez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":17}",
+      "18": "{\"Nombre\":\"eer\",\"PrimerApellido\":\"ggr\",\"SegundoApellido\":\"rggr\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":18}",
+      "19": "{\"Nombre\":\"ef\",\"PrimerApellido\":\"gr\",\"SegundoApellido\":\"rf\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":19}"
     },
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
-      "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 3º ESO\",\"profesorId\":1,\"id\":2}"
+      "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 1º ESO\",\"profesorId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Grupo 5\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":3}",
+      "10": "{\"Nombre\":\"rf\",\"Descripcion\":\"rrg\",\"profesorId\":1,\"id\":10}",
+      "11": "{\"Nombre\":\"dvd\",\"Descripcion\":\"dggd\",\"profesorId\":1,\"id\":11}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Comportamiento\",\"Descripcion\":\"Se asignará puntos de comportamiento a todos los alumnos que se comporten bien en clase\",\"profesorId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Deberes\",\"Descripcion\":\"Se asignará puntos de deberes a los alumnos que traigan los deberes hechos\",\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Buena nota examen\",\"Descripcion\":\"Se asignará puntos a todo aquel que consiga una nota superior al 7 en los exámenes\",\"profesorId\":1,\"id\":4}",
-      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}"
+      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}",
+      "28": "{\"Nombre\":\"effe\",\"Descripcion\":\"efgr\",\"profesorId\":1,\"id\":28}"
     },
     "Coleccion": {
       "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"foto\",\"profesorId\":1,\"id\":1}"
@@ -56,10 +71,9 @@
       "3": "{\"Nombre\":\"Stephen Hawking\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":3}"
     },
     "Equipo": {
-      "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Equipo rojo\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Equipo azul\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":3}",
-      "4": "{\"Nombre\":\"Equipo verde\",\"FotoEquipo\":\"foto\",\"grupoId\":1,\"id\":4}"
+      "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"wp4146623.jpg\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Equipo azul\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"S_610087-MCO29221359201_012019-O.jpg\"}",
+      "21": "{\"Nombre\":\"Equipo verde\",\"grupoId\":1,\"id\":21,\"FotoEquipo\":\"20037165.png\"}"
     },
     "Juego": {},
     "JuegoDePuntos": {
@@ -71,25 +85,27 @@
     "JuegoDeColeccion": {},
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
-      "2": "{\"alumnoId\":1,\"grupoId\":2,\"id\":2}",
       "3": "{\"alumnoId\":2,\"grupoId\":1,\"id\":3}",
-      "4": "{\"alumnoId\":3,\"grupoId\":2,\"id\":4}",
       "5": "{\"alumnoId\":3,\"grupoId\":1,\"id\":5}",
       "6": "{\"alumnoId\":4,\"grupoId\":1,\"id\":6}",
       "7": "{\"alumnoId\":5,\"grupoId\":1,\"id\":7}",
       "8": "{\"alumnoId\":6,\"grupoId\":1,\"id\":8}",
       "9": "{\"alumnoId\":7,\"grupoId\":1,\"id\":9}",
-      "10": "{\"alumnoId\":8,\"grupoId\":1,\"id\":10}"
+      "10": "{\"alumnoId\":8,\"grupoId\":1,\"id\":10}",
+      "24": "{\"alumnoId\":16,\"grupoId\":3,\"id\":24}",
+      "25": "{\"alumnoId\":17,\"grupoId\":3,\"id\":25}",
+      "27": "{\"alumnoId\":1,\"grupoId\":3,\"id\":27}",
+      "28": "{\"alumnoId\":3,\"grupoId\":3,\"id\":28}",
+      "29": "{\"alumnoId\":1,\"grupoId\":2,\"id\":29}",
+      "30": "{\"alumnoId\":3,\"grupoId\":2,\"id\":30}"
     },
     "AsignacionEquipo": {
-      "1": "{\"alumnoId\":1,\"equipoId\":1,\"id\":1}",
-      "2": "{\"alumnoId\":4,\"equipoId\":1,\"id\":2}",
-      "3": "{\"alumnoId\":2,\"equipoId\":2,\"id\":3}",
-      "4": "{\"alumnoId\":6,\"equipoId\":2,\"id\":4}",
-      "5": "{\"alumnoId\":3,\"equipoId\":3,\"id\":5}",
-      "6": "{\"alumnoId\":5,\"equipoId\":3,\"id\":6}",
-      "7": "{\"alumnoId\":7,\"equipoId\":4,\"id\":7}",
-      "8": "{\"alumnoId\":8,\"equipoId\":4,\"id\":8}"
+      "8": "{\"alumnoId\":4,\"equipoId\":2,\"grupoId\":1,\"id\":8}",
+      "11": "{\"alumnoId\":5,\"equipoId\":21,\"grupoId\":1,\"id\":11}",
+      "34": "{\"alumnoId\":3,\"equipoId\":1,\"grupoId\":1,\"id\":34}",
+      "35": "{\"alumnoId\":2,\"equipoId\":1,\"grupoId\":1,\"id\":35}",
+      "36": "{\"alumnoId\":1,\"equipoId\":2,\"grupoId\":1,\"id\":36}",
+      "37": "{\"alumnoId\":7,\"equipoId\":2,\"grupoId\":1,\"id\":37}"
     },
     "AsignacionPuntoJuego": {
       "1": "{\"juegoDePuntosId\":1,\"puntoId\":1,\"id\":1}",

@@ -52,6 +52,11 @@
       "type": "hasMany",
       "model": "Coleccion",
       "foreignKey": "profesorId"
+    },
+    "insignia": {
+      "type": "hasMany",
+      "model": "Insignia",
+      "foreignKey": "profesorId"
     }
   },
   "acls": [],
