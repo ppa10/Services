@@ -6,7 +6,7 @@
     "Punto": 29,
     "Coleccion": 2,
     "Cromo": 4,
-    "Equipo": 34,
+    "Equipo": 36,
     "Juego": 1,
     "JuegoDePuntos": 3,
     "JuegoDeCompeticion": 1,
@@ -19,7 +19,8 @@
     "Jornada": 4,
     "AlumnoJuegoDePuntos": 9,
     "EquipoJuegoDePuntos": 5,
-    "HistorialPuntosAlumno": 5
+    "HistorialPuntosAlumno": 5,
+    "Insignia": 20
   },
   "models": {
     "Profesor": {
@@ -144,6 +145,10 @@
       "2": "{\"ValorPunto\":3,\"puntoId\":1,\"alumnoJuegoDePuntosId\":1,\"id\":2}",
       "3": "{\"ValorPunto\":3,\"puntoId\":3,\"alumnoJuegoDePuntosId\":1,\"id\":3}",
       "4": "{\"ValorPunto\":4,\"puntoId\":4,\"alumnoJuegoDePuntosId\":1,\"id\":4}"
+    },
+    "Insignia": {
+      "18": "{\"Nombre\":\"Mano del Rey\",\"Descripcion\":\"Prueba\",\"Imagen\":\"mano-del-rey-juego-de-tronos-tyrion.jpg\",\"profesorId\":1,\"id\":18}",
+      "19": "{\"Nombre\":\"Rey\",\"Descripcion\":\"Prueba 2\",\"profesorId\":1,\"id\":19}"
     }
   }
 }
