@@ -1,26 +1,26 @@
 {
   "ids": {
     "Profesor": 3,
-    "Alumno": 20,
+    "Alumno": 23,
     "Grupo": 12,
     "Punto": 29,
     "Coleccion": 2,
     "Cromo": 4,
     "Equipo": 36,
     "Juego": 1,
-    "JuegoDePuntos": 3,
+    "JuegoDePuntos": 60,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
-    "JuegoDeColeccion": 1,
-    "Matricula": 33,
+    "JuegoDeColeccion": 2,
+    "Matricula": 36,
     "AsignacionEquipo": 38,
-    "AsignacionPuntoJuego": 5,
-    "Nivel": 4,
+    "AsignacionPuntoJuego": 26,
+    "Nivel": 13,
     "Jornada": 4,
-    "AlumnoJuegoDePuntos": 9,
+    "AlumnoJuegoDePuntos": 17,
     "EquipoJuegoDePuntos": 5,
     "HistorialPuntosAlumno": 5,
-    "Insignia": 20
+    "Insignia": 21
   },
   "models": {
     "Profesor": {
@@ -44,24 +44,19 @@
       "14": "{\"Nombre\":\"Bea\",\"PrimerApellido\":\"Garcés\",\"SegundoApellido\":\"Peiro\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":14}",
       "15": "{\"Nombre\":\"eeg\",\"PrimerApellido\":\"eggeg\",\"SegundoApellido\":\"Egeo\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":15}",
       "16": "{\"Nombre\":\"Josep\",\"PrimerApellido\":\"Pérez\",\"SegundoApellido\":\"Battle\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":16}",
-      "17": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martínez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":17}",
-      "18": "{\"Nombre\":\"eer\",\"PrimerApellido\":\"ggr\",\"SegundoApellido\":\"rggr\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":18}",
-      "19": "{\"Nombre\":\"ef\",\"PrimerApellido\":\"gr\",\"SegundoApellido\":\"rf\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":19}"
+      "17": "{\"Nombre\":\"Iván\",\"PrimerApellido\":\"Aguilera\",\"SegundoApellido\":\"Martínez\",\"ImagenPerfil\":\"fotoAlumno\",\"profesorId\":1,\"id\":17}"
     },
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Castellano 1º ESO\",\"profesorId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Grupo 5\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":3}",
-      "10": "{\"Nombre\":\"rf\",\"Descripcion\":\"rrg\",\"profesorId\":1,\"id\":10}",
-      "11": "{\"Nombre\":\"dvd\",\"Descripcion\":\"dggd\",\"profesorId\":1,\"id\":11}"
+      "3": "{\"Nombre\":\"Grupo 5\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":3}"
     },
     "Punto": {
       "1": "{\"Nombre\":\"Comportamiento\",\"Descripcion\":\"Se asignará puntos de comportamiento a todos los alumnos que se comporten bien en clase\",\"profesorId\":1,\"id\":1}",
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"Deberes\",\"Descripcion\":\"Se asignará puntos de deberes a los alumnos que traigan los deberes hechos\",\"profesorId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Buena nota examen\",\"Descripcion\":\"Se asignará puntos a todo aquel que consiga una nota superior al 7 en los exámenes\",\"profesorId\":1,\"id\":4}",
-      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}",
-      "28": "{\"Nombre\":\"effe\",\"Descripcion\":\"efgr\",\"profesorId\":1,\"id\":28}"
+      "5": "{\"Nombre\":\"Ayudar a un compañero\",\"Descripcion\":\"Se asignará puntos a los alumnos que ayuden a los compañeros que tengan dificultades\",\"profesorId\":1,\"id\":5}"
     },
     "Coleccion": {
       "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"foto\",\"profesorId\":1,\"id\":1}"
@@ -78,12 +73,16 @@
     },
     "Juego": {},
     "JuegoDePuntos": {
-      "1": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"grupoId\":1,\"id\":2}"
+      "1": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
+      "2": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2}",
+      "3": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":false,\"grupoId\":1,\"id\":3}"
     },
     "JuegoDeCompeticion": {},
     "Liga": {},
-    "JuegoDeColeccion": {},
+    "JuegoDeColeccion": {
+      "1": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"coleccionId\":1,\"id\":1}",
+      "2": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":false,\"grupoId\":1,\"coleccionId\":1,\"id\":2}"
+    },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
       "3": "{\"alumnoId\":2,\"grupoId\":1,\"id\":3}",
@@ -148,7 +147,8 @@
     },
     "Insignia": {
       "18": "{\"Nombre\":\"Mano del Rey\",\"Descripcion\":\"Prueba\",\"Imagen\":\"mano-del-rey-juego-de-tronos-tyrion.jpg\",\"profesorId\":1,\"id\":18}",
-      "19": "{\"Nombre\":\"Rey\",\"Descripcion\":\"Prueba 2\",\"profesorId\":1,\"id\":19}"
+      "19": "{\"Nombre\":\"Rey\",\"Descripcion\":\"Prueba 2\",\"profesorId\":1,\"id\":19}",
+      "20": "{\"Nombre\":\"gg\",\"Descripcion\":\"fig\",\"profesorId\":1,\"id\":20}"
     }
   }
 }
