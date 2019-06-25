@@ -30,6 +30,12 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "puntos": {
+      "type": "hasMany",
+      "model": "Punto",
+      "foreignKey": "equipoJuegoDePuntosId",
+      "through": "HistorialPuntosEquipo"
     }
   },
   "acls": [],

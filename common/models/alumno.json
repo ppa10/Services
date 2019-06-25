@@ -22,7 +22,7 @@
     "ImagenPerfil": {
       "type": "string",
       "required": true,
-      "default": "fotoAlumno"
+      "default": "UsuarioAlumno.jpg"
     }
   },
   "validations": [],
