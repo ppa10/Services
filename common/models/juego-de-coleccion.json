@@ -8,7 +8,26 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alumnos": {
+      "type": "hasMany",
+      "model": "Alumno",
+      "foreignKey": "juegoDeColeccionId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeColeccion"
+    },
+    "equipos": {
+      "type": "hasMany",
+      "model": "Equipo",
+      "foreignKey": "juegoDeColeccion",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeColeccion"
+    }
+  },
   "acls": [],
   "methods": {}
 }

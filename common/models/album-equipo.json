@@ -1,6 +1,6 @@
 {
-  "name": "Album",
-  "plural": "Albumes",
+  "name": "AlbumEquipo",
+  "plural": "albumsEquipo",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,16 +8,15 @@
   },
   "properties": {
     "Fecha": {
-      "type": "string",
-      "required": false
+      "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "alumnoJuegoDeColeccion": {
+    "equipoJuegoDeColeccion": {
       "type": "belongsTo",
-      "model": "AlumnoJuegoDeColeccion",
-      "foreignKey": "alumnoJuegoDeColeccionId",
+      "model": "EquipoJuegoDeColeccion",
+      "foreignKey": "equipoJuegoDeColeccionId",
       "options": {
         "nestRemoting": true
       }

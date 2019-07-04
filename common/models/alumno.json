@@ -53,6 +53,15 @@
         "nestRemoting": true
       },
       "through": "AlumnoJuegoDePuntos"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "alumnoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "AlumnoJuegoDeColeccion"
     }
   },
   "acls": [],

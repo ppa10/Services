@@ -150,5 +150,17 @@
   "HistorialPuntosEquipo": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
+  },
+  "AlumnoJuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "EquipoJuegoDeColeccion": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlbumEquipo": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
   }
 }

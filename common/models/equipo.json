@@ -35,6 +35,15 @@
         "nestRemoting": true
       },
       "through": "EquipoJuegoDePuntos"
+    },
+    "juegoDeColeccions": {
+      "type": "hasMany",
+      "model": "JuegoDeColeccion",
+      "foreignKey": "equipoId",
+      "options": {
+        "nestRemoting": true
+      },
+      "through": "EquipoJuegoDeColeccion"
     }
   },
   "acls": [],

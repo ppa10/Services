@@ -10,6 +10,10 @@
     "ValorPunto": {
       "type": "number",
       "required": true
+    },
+    "Fecha": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
