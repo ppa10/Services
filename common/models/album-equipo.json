@@ -13,18 +13,18 @@
   },
   "validations": [],
   "relations": {
-    "equipoJuegoDeColeccion": {
-      "type": "belongsTo",
-      "model": "EquipoJuegoDeColeccion",
-      "foreignKey": "equipoJuegoDeColeccionId",
-      "options": {
-        "nestRemoting": true
-      }
-    },
     "cromo": {
       "type": "belongsTo",
       "model": "Cromo",
       "foreignKey": "cromoId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "equipoJuegoDeColeccion": {
+      "type": "belongsTo",
+      "model": "EquipoJuegoDeColeccion",
+      "foreignKey": "equipoJuegoDeColeccionId",
       "options": {
         "nestRemoting": true
       }

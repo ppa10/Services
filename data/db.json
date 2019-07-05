@@ -5,13 +5,13 @@
     "Grupo": 14,
     "Punto": 31,
     "Coleccion": 3,
-    "Cromo": 9,
+    "Cromo": 10,
     "Equipo": 37,
     "Juego": 1,
     "JuegoDePuntos": 74,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
-    "JuegoDeColeccion": 4,
+    "JuegoDeColeccion": 18,
     "Matricula": 36,
     "AsignacionEquipo": 47,
     "AsignacionPuntoJuego": 46,
@@ -22,8 +22,8 @@
     "HistorialPuntosAlumno": 1,
     "Insignia": 22,
     "HistorialPuntosEquipo": 0,
-    "AlumnoJuegoDeColeccion": 0,
-    "EquipoJuegoDeColeccion": 3
+    "AlumnoJuegoDeColeccion": 8,
+    "EquipoJuegoDeColeccion": 7
   },
   "models": {
     "Profesor": {
@@ -77,7 +77,8 @@
       "5": "{\"Nombre\":\"James Harden\",\"Imagen\":\"722113_Rect169_600.jpg\",\"Probabilidad\":\"Muy baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":5}",
       "6": "{\"Nombre\":\"LeBron James\",\"Imagen\":\"lebron-james-chasing-ghosts-lead.jpg\",\"Probabilidad\":\"Muy baja\",\"Nivel\":\"Diamante\",\"coleccionId\":2,\"id\":6}",
       "7": "{\"Nombre\":\"Kevin Durant\",\"Imagen\":\"thumb-21-1024x537.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Bronce\",\"coleccionId\":2,\"id\":7}",
-      "8": "{\"Nombre\":\"Derrick Rose\",\"Imagen\":\"rose-1-17-2018.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}"
+      "8": "{\"Nombre\":\"Derrick Rose\",\"Imagen\":\"rose-1-17-2018.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}",
+      "9": "{\"Nombre\":\"Giannis Antetokounmpo\",\"Imagen\":\"GettyImages-885718208-775x465.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":9}"
     },
     "Equipo": {
       "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"wp4146623.jpg\",\"grupoId\":1,\"id\":1}",
@@ -94,9 +95,11 @@
     "JuegoDeCompeticion": {},
     "Liga": {},
     "JuegoDeColeccion": {
-      "1": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"coleccionId\":1,\"id\":1}",
-      "2": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":false,\"grupoId\":1,\"coleccionId\":1,\"id\":2}",
-      "3": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":3,\"coleccionId\":2}"
+      "13": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":13,\"coleccionId\":2}",
+      "14": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":14,\"coleccionId\":1}",
+      "15": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":15,\"coleccionId\":2}",
+      "16": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":16,\"coleccionId\":2}",
+      "17": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":17,\"coleccionId\":2}"
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -216,11 +219,23 @@
       "21": "{\"Nombre\":\"Prueba\",\"Descripcion\":\"merogmopmoprgoprpogrmoprgrgopmrgpomrgprogrgpmorgmoprgogorpogrmopgrmgrmrgmpoporgoprgoroprgopgroprmogmopgrorgorgrmgkmpglñ,sf`pe,pe``fp\",\"profesorId\":1,\"id\":21}"
     },
     "HistorialPuntosEquipo": {},
-    "AlumnoJuegoDeColeccion": {},
+    "AlumnoJuegoDeColeccion": {
+      "0": "{\"alumnoId\":2,\"juegoDeColeccionId\":8,\"id\":0}",
+      "1": "{\"alumnoId\":3,\"juegoDeColeccionId\":8,\"id\":1}",
+      "2": "{\"alumnoId\":1,\"juegoDeColeccionId\":8,\"id\":2}",
+      "3": "{\"alumnoId\":4,\"juegoDeColeccionId\":8,\"id\":3}",
+      "4": "{\"alumnoId\":5,\"juegoDeColeccionId\":8,\"id\":4}",
+      "5": "{\"alumnoId\":6,\"juegoDeColeccionId\":8,\"id\":5}",
+      "6": "{\"alumnoId\":7,\"juegoDeColeccionId\":8,\"id\":6}",
+      "7": "{\"alumnoId\":8,\"juegoDeColeccionId\":8,\"id\":7}"
+    },
     "EquipoJuegoDeColeccion": {
-      "0": "{\"juegoDeColeccionId\":3,\"equipoId\":1,\"id\":0}",
-      "1": "{\"juegoDeColeccionId\":3,\"equipoId\":2,\"id\":1}",
-      "2": "{\"juegoDeColeccionId\":3,\"equipoId\":21,\"id\":2}"
+      "1": "{\"juegoDeColeccionId\":16,\"equipoId\":1,\"id\":1}",
+      "2": "{\"juegoDeColeccionId\":16,\"equipoId\":2,\"id\":2}",
+      "3": "{\"juegoDeColeccionId\":16,\"equipoId\":21,\"id\":3}",
+      "4": "{\"juegoDeColeccionId\":17,\"equipoId\":1,\"id\":4}",
+      "5": "{\"juegoDeColeccionId\":17,\"equipoId\":2,\"id\":5}",
+      "6": "{\"juegoDeColeccionId\":17,\"equipoId\":21,\"id\":6}"
     }
   }
 }

@@ -21,7 +21,7 @@
     "equipos": {
       "type": "hasMany",
       "model": "Equipo",
-      "foreignKey": "juegoDeColeccion",
+      "foreignKey": "juegoDeColeccionId",
       "options": {
         "nestRemoting": true
       },

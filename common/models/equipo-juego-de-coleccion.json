@@ -1,6 +1,6 @@
 {
   "name": "EquipoJuegoDeColeccion",
-  "plural": "EquipoJuegoDeColeccion",
+  "plural": "EquiposJuegoDeColeccion",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

@@ -155,11 +155,11 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-  "EquipoJuegoDeColeccion": {
+  "AlbumEquipo": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-  "AlbumEquipo": {
+  "EquipoJuegoDeColeccion": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
   }
