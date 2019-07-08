@@ -5,25 +5,27 @@
     "Grupo": 14,
     "Punto": 31,
     "Coleccion": 3,
-    "Cromo": 10,
+    "Cromo": 21,
     "Equipo": 37,
     "Juego": 1,
     "JuegoDePuntos": 74,
     "JuegoDeCompeticion": 1,
     "Liga": 1,
-    "JuegoDeColeccion": 18,
+    "JuegoDeColeccion": 20,
     "Matricula": 36,
-    "AsignacionEquipo": 47,
+    "AsignacionEquipo": 48,
     "AsignacionPuntoJuego": 46,
     "Nivel": 17,
     "Jornada": 4,
     "AlumnoJuegoDePuntos": 41,
     "EquipoJuegoDePuntos": 12,
-    "HistorialPuntosAlumno": 1,
+    "HistorialPuntosAlumno": 4,
     "Insignia": 22,
     "HistorialPuntosEquipo": 0,
-    "AlumnoJuegoDeColeccion": 8,
-    "EquipoJuegoDeColeccion": 7
+    "AlumnoJuegoDeColeccion": 16,
+    "EquipoJuegoDeColeccion": 10,
+    "Album": 48,
+    "AlbumEquipo": 8
   },
   "models": {
     "Profesor": {
@@ -66,40 +68,46 @@
       "30": "{\"Nombre\":\"kk\",\"Descripcion\":\"kk\",\"profesorId\":1,\"id\":30}"
     },
     "Coleccion": {
-      "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"foto\",\"profesorId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"NBA\",\"ImagenColeccion\":\"images.png\",\"profesorId\":1,\"id\":2}"
+      "1": "{\"Nombre\":\"Físicos\",\"ImagenColeccion\":\"363.jpg\",\"profesorId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Jugadores NBA\",\"ImagenColeccion\":\"images.png\",\"profesorId\":1,\"id\":2}"
     },
     "Cromo": {
-      "1": "{\"Nombre\":\"Albert Einstein\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Isaac Newton\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":2}",
-      "3": "{\"Nombre\":\"Stephen Hawking\",\"Imagen\":\"foto\",\"Probabilidad\":\"baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":3}",
+      "1": "{\"Nombre\":\"Albert Einstein\",\"Imagen\":\"foto\",\"Probabilidad\":\"Baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Isaac Newton\",\"Imagen\":\"foto\",\"Probabilidad\":\"Baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":2}",
+      "3": "{\"Nombre\":\"Stephen Hawking\",\"Imagen\":\"foto\",\"Probabilidad\":\"Baja\",\"Nivel\":\"oro\",\"coleccionId\":1,\"id\":3}",
       "4": "{\"Nombre\":\"Stephen Curry\",\"Imagen\":\"190405233058-stephen-curry-30-of-the-golden-state-warriors-full-169.jpg\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":2,\"id\":4}",
-      "5": "{\"Nombre\":\"James Harden\",\"Imagen\":\"722113_Rect169_600.jpg\",\"Probabilidad\":\"Muy baja\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":5}",
-      "6": "{\"Nombre\":\"LeBron James\",\"Imagen\":\"lebron-james-chasing-ghosts-lead.jpg\",\"Probabilidad\":\"Muy baja\",\"Nivel\":\"Diamante\",\"coleccionId\":2,\"id\":6}",
-      "7": "{\"Nombre\":\"Kevin Durant\",\"Imagen\":\"thumb-21-1024x537.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Bronce\",\"coleccionId\":2,\"id\":7}",
+      "5": "{\"Nombre\":\"James Harden\",\"Imagen\":\"722113_Rect169_600.jpg\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":2,\"id\":5}",
+      "6": "{\"Nombre\":\"LeBron James\",\"Imagen\":\"lebron-james-chasing-ghosts-lead.jpg\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":2,\"id\":6}",
+      "7": "{\"Nombre\":\"Kevin Durant\",\"Imagen\":\"thumb-21-1024x537.jpg\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":2,\"id\":7}",
       "8": "{\"Nombre\":\"Derrick Rose\",\"Imagen\":\"rose-1-17-2018.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}",
-      "9": "{\"Nombre\":\"Giannis Antetokounmpo\",\"Imagen\":\"GettyImages-885718208-775x465.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":9}"
+      "9": "{\"Nombre\":\"Giannis Antetokounmpo\",\"Imagen\":\"GettyImages-885718208-775x465.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":9}",
+      "10": "{\"Nombre\":\"Ben Simmons\",\"Imagen\":\"imageBenSimmons.jpeg\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":2,\"id\":10}",
+      "11": "{\"Nombre\":\"Damian Lillard\",\"Imagen\":\"damian-lillard-1.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":11}",
+      "12": "{\"Nombre\":\"Paul George\",\"Imagen\":\"960.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":12}",
+      "13": "{\"Nombre\":\"Kawhi Leonard\",\"Imagen\":\"hi-res-821c39c1fc554f7a005a85ae00da4db7_crop_north.jpg\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":2,\"id\":13}",
+      "14": "{\"Nombre\":\"Chris Paul\",\"Imagen\":\"image.jpeg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":14}",
+      "15": "{\"Nombre\":\"Kyrie Irving\",\"Imagen\":\"gettyimages-1134533060_crop1558558547049.jpg_1693159006.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":15}",
+      "16": "{\"Nombre\":\"Russell Westbrook\",\"Imagen\":\"russell-westbrook-e1555451725771.jpg\",\"Probabilidad\":\"Muy Baja\",\"Nivel\":\"Diamante\",\"coleccionId\":2,\"id\":16}",
+      "17": "{\"Nombre\":\"Kemba Walker\",\"Imagen\":\"1561849361_085302_1561849456_noticia_normal_recorte1.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":17}",
+      "18": "{\"Nombre\":\"D'Angelo Russell\",\"Imagen\":\"img_sescario_20190626-163716_imagenes_md_getty_gettyimages-1143617368-kswE-U463192400529CBG-980x554@MundoDeportivo-Web.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":18}",
+      "19": "{\"Nombre\":\"Kyle Lowry\",\"Imagen\":\"klrsr.png\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":19}",
+      "20": "{\"Nombre\":\"Klay Thompson\",\"Imagen\":\"2e4372b0f1823ef8882f10c7e6cb7dff.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":20}"
     },
     "Equipo": {
-      "1": "{\"Nombre\":\"Equipo amarillo\",\"FotoEquipo\":\"wp4146623.jpg\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Equipo azul\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"S_610087-MCO29221359201_012019-O.jpg\"}",
-      "21": "{\"Nombre\":\"Equipo verde\",\"grupoId\":1,\"id\":21,\"FotoEquipo\":\"20037165.png\"}"
+      "1": "{\"Nombre\":\"Los Angeles Lakers\",\"FotoEquipo\":\"e21219b6ea62929a81fcc3de3d31baf1-logo-de-los-angeles-lakers-by-vexels.png\",\"grupoId\":1,\"id\":1}",
+      "2": "{\"Nombre\":\"Boston Celtics\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"yyy1024px-Boston_Celtics.jpg\"}",
+      "21": "{\"Nombre\":\"Brooklyn Nets\",\"grupoId\":1,\"id\":21,\"FotoEquipo\":\"Brooklyn-Nets-Symbol.png\"}"
     },
     "Juego": {},
     "JuegoDePuntos": {
       "1": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1}",
-      "69": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":69}",
-      "72": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":72}",
-      "73": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":73}"
+      "69": "{\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":69}"
     },
     "JuegoDeCompeticion": {},
     "Liga": {},
     "JuegoDeColeccion": {
-      "13": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":13,\"coleccionId\":2}",
-      "14": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":14,\"coleccionId\":1}",
-      "15": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":15,\"coleccionId\":2}",
-      "16": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":16,\"coleccionId\":2}",
-      "17": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":17,\"coleccionId\":2}"
+      "18": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":18,\"coleccionId\":2}",
+      "19": "{\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":19,\"coleccionId\":2}"
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -116,13 +124,13 @@
     },
     "AsignacionEquipo": {
       "8": "{\"alumnoId\":4,\"equipoId\":2,\"grupoId\":1,\"id\":8}",
-      "34": "{\"alumnoId\":3,\"equipoId\":2,\"grupoId\":1,\"id\":34}",
-      "36": "{\"alumnoId\":1,\"equipoId\":2,\"grupoId\":1,\"id\":36}",
-      "37": "{\"alumnoId\":7,\"equipoId\":2,\"grupoId\":1,\"id\":37}",
-      "38": "{\"alumnoId\":6,\"equipoId\":1,\"grupoId\":1,\"id\":38}",
-      "39": "{\"alumnoId\":8,\"equipoId\":1,\"grupoId\":1,\"id\":39}",
-      "45": "{\"alumnoId\":2,\"equipoId\":21,\"grupoId\":1,\"id\":45}",
-      "46": "{\"alumnoId\":5,\"equipoId\":21,\"grupoId\":1,\"id\":46}"
+      "34": "{\"alumnoId\":3,\"equipoId\":1,\"grupoId\":1,\"id\":34}",
+      "36": "{\"alumnoId\":1,\"equipoId\":1,\"grupoId\":1,\"id\":36}",
+      "37": "{\"alumnoId\":7,\"equipoId\":21,\"grupoId\":1,\"id\":37}",
+      "38": "{\"alumnoId\":6,\"equipoId\":2,\"grupoId\":1,\"id\":38}",
+      "45": "{\"alumnoId\":2,\"equipoId\":1,\"grupoId\":1,\"id\":45}",
+      "46": "{\"alumnoId\":5,\"equipoId\":21,\"grupoId\":1,\"id\":46}",
+      "47": "{\"alumnoId\":8,\"equipoId\":21,\"grupoId\":1,\"id\":47}"
     },
     "AsignacionPuntoJuego": {
       "1": "{\"juegoDePuntosId\":1,\"puntoId\":1,\"id\":1}",
@@ -163,9 +171,9 @@
       "3": "{\"Nombre\":\"Jornada 3\",\"Fecha\":\"2019-04-25T16:44:21.493Z\",\"ligaId\":1,\"id\":3}"
     },
     "AlumnoJuegoDePuntos": {
-      "1": "{\"id\":1,\"PuntosTotalesAlumno\":4,\"alumnoId\":1,\"juegoDePuntosId\":1}",
-      "2": "{\"id\":2,\"PuntosTotalesAlumno\":0,\"alumnoId\":2,\"juegoDePuntosId\":1}",
-      "3": "{\"id\":3,\"PuntosTotalesAlumno\":0,\"alumnoId\":3,\"juegoDePuntosId\":1}",
+      "1": "{\"id\":1,\"PuntosTotalesAlumno\":11,\"alumnoId\":1,\"juegoDePuntosId\":1,\"nivelId\":1}",
+      "2": "{\"id\":2,\"PuntosTotalesAlumno\":7,\"alumnoId\":2,\"juegoDePuntosId\":1}",
+      "3": "{\"id\":3,\"PuntosTotalesAlumno\":7,\"alumnoId\":3,\"juegoDePuntosId\":1}",
       "4": "{\"id\":4,\"PuntosTotalesAlumno\":0,\"alumnoId\":4,\"juegoDePuntosId\":1}",
       "5": "{\"id\":5,\"PuntosTotalesAlumno\":0,\"alumnoId\":5,\"juegoDePuntosId\":1}",
       "6": "{\"PuntosTotalesAlumno\":0,\"alumnoId\":6,\"juegoDePuntosId\":1,\"id\":6}",
@@ -210,7 +218,10 @@
       "11": "{\"id\":11,\"PuntosTotalesEquipo\":7,\"equipoId\":1,\"juegoDePuntosId\":69}"
     },
     "HistorialPuntosAlumno": {
-      "0": "{\"ValorPunto\":4,\"puntoId\":1,\"alumnoJuegoDePuntosId\":1,\"fecha\":\"1/7/2019  19:39:52\",\"id\":0}"
+      "0": "{\"ValorPunto\":4,\"puntoId\":1,\"alumnoJuegoDePuntosId\":1,\"fecha\":\"1/7/2019  19:39:52\",\"id\":0}",
+      "1": "{\"ValorPunto\":7,\"puntoId\":3,\"alumnoJuegoDePuntosId\":1,\"fecha\":\"6/7/2019  22:19:47\",\"id\":1}",
+      "2": "{\"ValorPunto\":7,\"puntoId\":3,\"alumnoJuegoDePuntosId\":2,\"fecha\":\"6/7/2019  22:19:47\",\"id\":2}",
+      "3": "{\"ValorPunto\":7,\"puntoId\":3,\"alumnoJuegoDePuntosId\":3,\"fecha\":\"6/7/2019  22:19:47\",\"id\":3}"
     },
     "Insignia": {
       "18": "{\"Nombre\":\"Mano del Rey\",\"Descripcion\":\"Prueba\",\"Imagen\":\"mano-del-rey-juego-de-tronos-tyrion.jpg\",\"profesorId\":1,\"id\":18}",
@@ -227,15 +238,55 @@
       "4": "{\"alumnoId\":5,\"juegoDeColeccionId\":8,\"id\":4}",
       "5": "{\"alumnoId\":6,\"juegoDeColeccionId\":8,\"id\":5}",
       "6": "{\"alumnoId\":7,\"juegoDeColeccionId\":8,\"id\":6}",
-      "7": "{\"alumnoId\":8,\"juegoDeColeccionId\":8,\"id\":7}"
+      "7": "{\"alumnoId\":8,\"juegoDeColeccionId\":8,\"id\":7}",
+      "8": "{\"alumnoId\":1,\"juegoDeColeccionId\":19,\"id\":8}",
+      "9": "{\"alumnoId\":3,\"juegoDeColeccionId\":19,\"id\":9}",
+      "10": "{\"alumnoId\":4,\"juegoDeColeccionId\":19,\"id\":10}",
+      "11": "{\"alumnoId\":2,\"juegoDeColeccionId\":19,\"id\":11}",
+      "12": "{\"alumnoId\":5,\"juegoDeColeccionId\":19,\"id\":12}",
+      "13": "{\"alumnoId\":6,\"juegoDeColeccionId\":19,\"id\":13}",
+      "14": "{\"alumnoId\":7,\"juegoDeColeccionId\":19,\"id\":14}",
+      "15": "{\"alumnoId\":8,\"juegoDeColeccionId\":19,\"id\":15}"
     },
     "EquipoJuegoDeColeccion": {
-      "1": "{\"juegoDeColeccionId\":16,\"equipoId\":1,\"id\":1}",
-      "2": "{\"juegoDeColeccionId\":16,\"equipoId\":2,\"id\":2}",
-      "3": "{\"juegoDeColeccionId\":16,\"equipoId\":21,\"id\":3}",
-      "4": "{\"juegoDeColeccionId\":17,\"equipoId\":1,\"id\":4}",
-      "5": "{\"juegoDeColeccionId\":17,\"equipoId\":2,\"id\":5}",
-      "6": "{\"juegoDeColeccionId\":17,\"equipoId\":21,\"id\":6}"
+      "7": "{\"juegoDeColeccionId\":18,\"equipoId\":1,\"id\":7}",
+      "8": "{\"juegoDeColeccionId\":18,\"equipoId\":2,\"id\":8}",
+      "9": "{\"juegoDeColeccionId\":18,\"equipoId\":21,\"id\":9}"
+    },
+    "Album": {
+      "24": "{\"cromoId\":9,\"alumnoJuegoDeColeccionId\":8,\"id\":24}",
+      "25": "{\"cromoId\":8,\"alumnoJuegoDeColeccionId\":8,\"id\":25}",
+      "26": "{\"cromoId\":5,\"alumnoJuegoDeColeccionId\":8,\"id\":26}",
+      "27": "{\"cromoId\":7,\"alumnoJuegoDeColeccionId\":8,\"id\":27}",
+      "28": "{\"cromoId\":8,\"alumnoJuegoDeColeccionId\":9,\"id\":28}",
+      "29": "{\"cromoId\":10,\"alumnoJuegoDeColeccionId\":9,\"id\":29}",
+      "30": "{\"cromoId\":9,\"alumnoJuegoDeColeccionId\":11,\"id\":30}",
+      "31": "{\"cromoId\":7,\"alumnoJuegoDeColeccionId\":11,\"id\":31}",
+      "32": "{\"cromoId\":8,\"alumnoJuegoDeColeccionId\":8,\"id\":32}",
+      "33": "{\"cromoId\":8,\"alumnoJuegoDeColeccionId\":14,\"id\":33}",
+      "34": "{\"cromoId\":10,\"alumnoJuegoDeColeccionId\":14,\"id\":34}",
+      "35": "{\"cromoId\":13,\"alumnoJuegoDeColeccionId\":14,\"id\":35}",
+      "36": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":14,\"id\":36}",
+      "37": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":8,\"id\":37}",
+      "38": "{\"cromoId\":5,\"alumnoJuegoDeColeccionId\":10,\"id\":38}",
+      "39": "{\"cromoId\":11,\"alumnoJuegoDeColeccionId\":10,\"id\":39}",
+      "40": "{\"cromoId\":14,\"alumnoJuegoDeColeccionId\":8,\"id\":40}",
+      "41": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":13,\"id\":41}",
+      "42": "{\"cromoId\":5,\"alumnoJuegoDeColeccionId\":11,\"id\":42}",
+      "43": "{\"cromoId\":17,\"alumnoJuegoDeColeccionId\":9,\"id\":43}",
+      "44": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":11,\"id\":44}",
+      "45": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":9,\"id\":45}",
+      "46": "{\"cromoId\":10,\"alumnoJuegoDeColeccionId\":11,\"id\":46}",
+      "47": "{\"cromoId\":7,\"alumnoJuegoDeColeccionId\":15,\"id\":47}"
+    },
+    "AlbumEquipo": {
+      "1": "{\"cromoId\":6,\"equipoJuegoDeColeccionId\":7,\"id\":1}",
+      "2": "{\"cromoId\":9,\"equipoJuegoDeColeccionId\":8,\"id\":2}",
+      "3": "{\"cromoId\":8,\"equipoJuegoDeColeccionId\":8,\"id\":3}",
+      "4": "{\"cromoId\":14,\"equipoJuegoDeColeccionId\":8,\"id\":4}",
+      "5": "{\"cromoId\":11,\"equipoJuegoDeColeccionId\":8,\"id\":5}",
+      "6": "{\"cromoId\":20,\"equipoJuegoDeColeccionId\":8,\"id\":6}",
+      "7": "{\"cromoId\":8,\"equipoJuegoDeColeccionId\":8,\"id\":7}"
     }
   }
 }
