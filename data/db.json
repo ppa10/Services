@@ -24,7 +24,7 @@
     "HistorialPuntosEquipo": 0,
     "AlumnoJuegoDeColeccion": 16,
     "EquipoJuegoDeColeccion": 10,
-    "Album": 48,
+    "Album": 51,
     "AlbumEquipo": 8
   },
   "models": {
@@ -81,7 +81,7 @@
       "7": "{\"Nombre\":\"Kevin Durant\",\"Imagen\":\"thumb-21-1024x537.jpg\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":2,\"id\":7}",
       "8": "{\"Nombre\":\"Derrick Rose\",\"Imagen\":\"rose-1-17-2018.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":8}",
       "9": "{\"Nombre\":\"Giannis Antetokounmpo\",\"Imagen\":\"GettyImages-885718208-775x465.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":9}",
-      "10": "{\"Nombre\":\"Ben Simmons\",\"Imagen\":\"imageBenSimmons.jpeg\",\"Probabilidad\":\"Muy Alta\",\"Nivel\":\"Bronce\",\"coleccionId\":2,\"id\":10}",
+      "10": "{\"Nombre\":\"Ben Simmons\",\"Imagen\":\"imageBenSimmons.jpeg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":10}",
       "11": "{\"Nombre\":\"Damian Lillard\",\"Imagen\":\"damian-lillard-1.jpg\",\"Probabilidad\":\"Media\",\"Nivel\":\"Oro\",\"coleccionId\":2,\"id\":11}",
       "12": "{\"Nombre\":\"Paul George\",\"Imagen\":\"960.jpg\",\"Probabilidad\":\"Alta\",\"Nivel\":\"Plata\",\"coleccionId\":2,\"id\":12}",
       "13": "{\"Nombre\":\"Kawhi Leonard\",\"Imagen\":\"hi-res-821c39c1fc554f7a005a85ae00da4db7_crop_north.jpg\",\"Probabilidad\":\"Baja\",\"Nivel\":\"Platino\",\"coleccionId\":2,\"id\":13}",
@@ -95,7 +95,7 @@
     },
     "Equipo": {
       "1": "{\"Nombre\":\"Los Angeles Lakers\",\"FotoEquipo\":\"e21219b6ea62929a81fcc3de3d31baf1-logo-de-los-angeles-lakers-by-vexels.png\",\"grupoId\":1,\"id\":1}",
-      "2": "{\"Nombre\":\"Boston Celtics\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"yyy1024px-Boston_Celtics.jpg\"}",
+      "2": "{\"Nombre\":\"Boston Celtics\",\"grupoId\":1,\"id\":2,\"FotoEquipo\":\"yyy1024px-Boston_Celtics.png\"}",
       "21": "{\"Nombre\":\"Brooklyn Nets\",\"grupoId\":1,\"id\":21,\"FotoEquipo\":\"Brooklyn-Nets-Symbol.png\"}"
     },
     "Juego": {},
@@ -277,7 +277,10 @@
       "44": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":11,\"id\":44}",
       "45": "{\"cromoId\":12,\"alumnoJuegoDeColeccionId\":9,\"id\":45}",
       "46": "{\"cromoId\":10,\"alumnoJuegoDeColeccionId\":11,\"id\":46}",
-      "47": "{\"cromoId\":7,\"alumnoJuegoDeColeccionId\":15,\"id\":47}"
+      "47": "{\"cromoId\":7,\"alumnoJuegoDeColeccionId\":15,\"id\":47}",
+      "48": "{\"cromoId\":9,\"alumnoJuegoDeColeccionId\":9,\"id\":48}",
+      "49": "{\"cromoId\":10,\"alumnoJuegoDeColeccionId\":11,\"id\":49}",
+      "50": "{\"cromoId\":19,\"alumnoJuegoDeColeccionId\":11,\"id\":50}"
     },
     "AlbumEquipo": {
       "1": "{\"cromoId\":6,\"equipoJuegoDeColeccionId\":7,\"id\":1}",
